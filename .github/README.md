@@ -6,7 +6,7 @@
 Esse projeto usa webpack e babel como suporte, podendo assim realizar import e export entre módulos. Pois então foi aproveitado uma classe de um projeto anterior no qual um formulário tem consigo um validador de cpf, optei por tentar criar um gerador de cpf's válidos, e também usei algumas funções para criar um campo de copiar para área de transferência e recarregar o algóritmo, deixando mais dinâmico, e por fim um link direcionando para o projeto com validador de cpf's incluso.
 
 ![preview](./LT.png)<br>
-🔗[Clique aqui para acessar o projeto!](https://pedrodevvv.github.io/Timer-JS/)
+🔗[Clique aqui para acessar o projeto!](https://cpf-generator-js.vercel.app/)
 ## 🛠️Tecnologias
 
 * JavaScript

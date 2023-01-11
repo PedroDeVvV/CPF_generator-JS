@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Gerador de CPF</title>
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Gerador de CPF</h1>
+    <input id="copiar" type="text" class="cpf-final" readonly><button onclick="copiarCampo()"><i
+        class="fa fa-copy"></i></button><br>
+
+    <button class="iniciar"><i class="fa fa-refresh"></i></button><br>
+    <a href="https://formsvalidation-dayzwluuh-pedrodevvv.vercel.app/" target="_blank">Acesse um validador de formulários com valida CPF.</a>
+
+    <script>
+      function copiarCampo() {
+        const copiado = document.getElementById('copiar')
+        copiado.select();
+        copiado.setSelectionRange(0, 14);
+
+        document.execCommand("copy");
+        alert('Copiado para área de transferência')
+      }
+
+    </script>
+
+  </section>
+
+  <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
